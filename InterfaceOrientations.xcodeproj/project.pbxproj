@@ -15,6 +15,7 @@
 		452A4AED1D41BCC40064BDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452A4AEB1D41BCC40064BDED /* LaunchScreen.storyboard */; };
 		452A4AF81D41BCC40064BDED /* InterfaceOrientationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452A4AF71D41BCC40064BDED /* InterfaceOrientationsTests.m */; };
 		452A4B031D41BCC40064BDED /* InterfaceOrientationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452A4B021D41BCC40064BDED /* InterfaceOrientationsUITests.m */; };
+		452A4B121D41C6B30064BDED /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452A4B111D41C6B30064BDED /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		452A4AFE1D41BCC40064BDED /* InterfaceOrientationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterfaceOrientationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		452A4B021D41BCC40064BDED /* InterfaceOrientationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceOrientationsUITests.m; sourceTree = "<group>"; };
 		452A4B041D41BCC40064BDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452A4B101D41C6B30064BDED /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		452A4B111D41C6B30064BDED /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				452A4AE11D41BCC40064BDED /* AppDelegate.m */,
 				452A4AE31D41BCC40064BDED /* ViewController.h */,
 				452A4AE41D41BCC40064BDED /* ViewController.m */,
+				452A4B101D41C6B30064BDED /* SecondViewController.h */,
+				452A4B111D41C6B30064BDED /* SecondViewController.m */,
 				452A4AE61D41BCC40064BDED /* Main.storyboard */,
 				452A4AE91D41BCC40064BDED /* Assets.xcassets */,
 				452A4AEB1D41BCC40064BDED /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452A4B121D41C6B30064BDED /* SecondViewController.m in Sources */,
 				452A4AE51D41BCC40064BDED /* ViewController.m in Sources */,
 				452A4AE21D41BCC40064BDED /* AppDelegate.m in Sources */,
 				452A4ADF1D41BCC40064BDED /* main.m in Sources */,

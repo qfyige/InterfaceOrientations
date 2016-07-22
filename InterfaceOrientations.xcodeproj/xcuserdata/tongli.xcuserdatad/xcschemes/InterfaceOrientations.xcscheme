@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "452A4AD91D41BCC40064BDED"
+               BuildableName = "InterfaceOrientations.app"
+               BlueprintName = "InterfaceOrientations"
+               ReferencedContainer = "container:InterfaceOrientations.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "452A4AF21D41BCC40064BDED"
+               BuildableName = "InterfaceOrientationsTests.xctest"
+               BlueprintName = "InterfaceOrientationsTests"
+               ReferencedContainer = "container:InterfaceOrientations.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "452A4AFD1D41BCC40064BDED"
+               BuildableName = "InterfaceOrientationsUITests.xctest"
+               BlueprintName = "InterfaceOrientationsUITests"
+               ReferencedContainer = "container:InterfaceOrientations.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "452A4AD91D41BCC40064BDED"
+            BuildableName = "InterfaceOrientations.app"
+            BlueprintName = "InterfaceOrientations"
+            ReferencedContainer = "container:InterfaceOrientations.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "452A4AD91D41BCC40064BDED"
+            BuildableName = "InterfaceOrientations.app"
+            BlueprintName = "InterfaceOrientations"
+            ReferencedContainer = "container:InterfaceOrientations.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "452A4AD91D41BCC40064BDED"
+            BuildableName = "InterfaceOrientations.app"
+            BlueprintName = "InterfaceOrientations"
+            ReferencedContainer = "container:InterfaceOrientations.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
