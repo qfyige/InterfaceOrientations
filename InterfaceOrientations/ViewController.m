@@ -28,6 +28,8 @@
 }
 
 - (IBAction)clickNextButton:(id)sender {
+    [self changeOrientations];
+
     SecondViewController *sec = GetStoryBoardWithViewControllerName(@"SecondViewController");
     [self presentViewController:sec animated:YES completion:^{
         
